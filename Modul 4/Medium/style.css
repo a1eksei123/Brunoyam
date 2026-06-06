@@ -66,5 +66,13 @@ img {
 .mesto {
   display: flex;
   justify-content: center;
+  /* align-items: center; */
   gap: 50px;
+}
+.width50{
+  width: 50%;
+}
+
+iframe{
+  align-items: center;
 }
