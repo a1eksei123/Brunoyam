@@ -2,6 +2,7 @@
 * {
   font-family: "Open Sans", sans-serif;
   color: black;
+  /* display: flex; */
 }
 section {
   padding-top: 120px;
@@ -22,6 +23,11 @@ p {
 .accent {
   color: red;
 }
+.ryad {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .card {
   padding: 32px;
   margin: 32px;
@@ -30,7 +36,13 @@ p {
   border-width: 1px;
   border-color: #d9d9d9;
 }
-
+.conter {
+  display: flex;
+  justify-content: end;
+}
+.stat {
+  width: 200px;
+}
 h3 {
   font-size: 32px;
 }
@@ -47,4 +59,12 @@ h3 {
   width: 500px;
   height: 500px;
   border-radius: 12px;
+}
+img {
+  /* width: 100%; */
+}
+.mesto {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
 }
